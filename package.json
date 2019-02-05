@@ -157,5 +157,8 @@
     "wallaby-webpack": "3.9.4",
     "webpack-bundle-analyzer": "2.9.2",
     "zone.js": "0.8.17"
+  },
+  "dependencies": {
+    "fsevents": "1.2.7"
   }
 }

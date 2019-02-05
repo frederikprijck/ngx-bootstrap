@@ -30,6 +30,7 @@ export class BsDatepickerState
   // bounds
   minDate?: Date;
   maxDate?: Date;
+  datesDisabled?: Date[];
 
   hoveredDate?: Date;
   hoveredMonth?: Date;

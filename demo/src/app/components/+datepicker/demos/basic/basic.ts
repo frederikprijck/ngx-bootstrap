@@ -4,4 +4,8 @@ import { Component } from '@angular/core';
   selector: 'demo-datepicker-basic',
   templateUrl: './basic.html'
 })
-export class DemoDatepickerBasicComponent {}
+export class DemoDatepickerBasicComponent {
+  dates = [
+    new Date('2019-02-06')
+  ];
+}
